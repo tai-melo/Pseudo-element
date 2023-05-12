@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header></header>
+    <h1>Pseudo-Elements </h1>
+    <hr> <!-- linha horizontal -->
+
+    <h2>1 - First Line</h2>
+    <p class="psdElementFirstLine">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut quos quidem voluptatibus vero, nulla dignissimos quis? Assumenda alias ex est dignissimos eaque mollitia adipisci quod maiores. Exercitationem deleniti odio accusamus aliquam et qui numquam, alias nam quam, eveniet libero voluptas praesentium ipsam quia obcaecati ipsa veniam saepe iure aperiam quos? Vitae quisquam similique nam error! Odit deleniti, ipsam aperiam, similique corporis hic velit accusamus sunt non eaque quidem veritatis id nihil placeat! Dolor eligendi similique natus deleniti. Non nulla ad voluptatem eius vel alias velit quo illo odio! Consequatur odio officia expedita? Quas, aut? Voluptatem nobis, totam consequatur in itaque reiciendis quia? Eius corporis natus distinctio debitis quasi quis vitae ex fugiat quae eveniet doloribus nemo magni labore nostrum dignissimos, quisquam soluta assumenda. Quae fugit corporis est, quasi, voluptate temporibus quo fugiat, esse similique molestias itaque quis quod nostrum soluta eaque amet maiores commodi quas facere cum! Harum, assumenda quo!</p>
+
+    <p class="psdElementFirstLine">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aliquam porro nemo, <br> totam laudantium vero. Facere ab quis esse a aperiam culpa deleniti ullam atque, asperiores, non ex unde sequi vitae molestias temporibus voluptate, id magni. Nulla aliquid laborum molestiae! Placeat, aliquam nisi inventore iste maxime quam iusto quia, temporibus ducimus ad odit illo facilis, dolorem sed consectetur accusamus provident. Reiciendis corrupti vero, voluptates perferendis quod voluptas, harum consequuntur consequatur repudiandae ad perspiciatis modi assumenda quisquam deleniti ab sapiente tenetur necessitatibus cum architecto quo possimus? Totam doloribus minus assumenda saepe.</p> 
+    <!-- Na linha 18, mesmo com a quebra de linha, ele mantém a configuração do pseudo-elemento first-line -->
+    
+    <br>
+    <hr> <!-- linha horizontal -->
+    
+    <h2>2 - First Letter</h2>
+    <p class="psdElementFirstLetter">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati possimus omnis, libero ex reprehenderit veritatis molestias consequuntur, velit animi alias perferendis minus quos provident rerum! Illo, voluptatibus qui iure, sint quidem mollitia, quae dolor nemo nihil fugiat odit dolores! Fugiat iste, molestias labore excepturi pariatur mollitia unde, dolorem doloribus natus porro, commodi itaque neque. Autem sequi omnis maxime minima animi tempora odio laboriosam. Mollitia obcaecati assumenda beatae vel, dignissimos rerum, nostrum doloremque explicabo nulla quibusdam cum, iste veniam incidunt magnam. Commodi laudantium perferendis architecto deserunt. Impedit deserunt fuga modi? Fugiat, consequatur eligendi laborum quod suscipit vitae repellat harum quas, sequi quam reiciendis quasi accusamus, iusto tempora accusantium quisquam dicta! Ducimus, veritatis.</p>
+    
+    <hr> <!-- linha horizontal -->
+    
+    <h2>3 - Selection</h2>
+    <p class="psdElementSelection"> >>Usado para alterar a cor da seleção de texto. << Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga neque doloribus harum ratione doloremque similique sit sed fugiat quisquam vitae. Impedit veritatis quo amet eligendi perferendis magnam, nulla natus cupiditate, at rerum pariatur expedita perspiciatis quis, maiores eaque minus animi accusantium excepturi maxime voluptates cumque dignissimos architecto hic. Ex, veniam!</p>
+
+    <br>
+
+    <hr> <!-- linha horizontal -->
+    
+    <h2>4 - Marker</h2>
+    
+    <p> Usado para alterar os marcadores em uma lista:
+        <ul class="psdElementMarker"> <!-- shorthand para fazer varios li é: ul>li*3 -->
+         <li>Item novo</li>
+         <li>Item usado</li>
+         <li>Item restaurado</li>
+         <li>Item vendido</li>
+         <li>Item alugado</li>
+        </ul>
+    </p>
+    
+    <hr> <!-- linha horizontal -->
+    
+    <h2>5 - Placeholder</h2>
+    <p>Usado para alterar o design de campos de um formulário etc </p>
+    <label for="name">Nome:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" >
+    <br>
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Digite o seu email" class="psdElementePlaceHolder"> <!-- usndo a classe placeholder -->
+    <br>
+    
+
+    <hr> <!-- linha horizontal -->
+
+    <h2>6 - Before</h2>
+    <p>Pseudo-elemento usado para inserir elementos/caracteres <span class="destaque">antes</span> de um texto:</p>
+    <div class="psdElementBefore">Exemplo de texto</div>
+    <div class="psdElementBefore">Exemplo de texto</div>
+    <div class="psdElementBefore">Exemplo de texto</div>
+
+    <br>
+    <hr>
+        
+    <h2>7 - After</h2>
+    <p> Usado para inserir elementos/caracteres <span class="destaque">depois</span> de um texto:
+    <div class="psdElementAfter">Exemplo de texto</div>
+    <div class="psdElementAfter">Exemplo de texto</div>
+    <div class="psdElementAfter">Exemplo de texto</div>
+
+    </p>
+
+    
+
+
+    <footer></footer>
+
+
+
+
+</body>
+</html>

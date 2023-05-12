@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    background-color: #2c3d53;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: auto;
+    color: whitesmoke;
+    
+}
+
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(29, 177, 157);
+}
+
+.psdElementFirstLine::first-line{
+    color: rgb(137, 233, 12);
+    font-weight: bold;
+}
+
+.psdElementFirstLetter::first-letter{
+    font-size: 50px;
+    text-decoration: underline;
+    color: rgb(131, 95, 165);
+}
+
+.psdElementSelection::selection{
+    background-color: #EFB0A1;
+    color:#A4508B;
+}
+
+
+
+.psdElementMarker li::marker{  /* veja q chamamos a classe, damos um espaço e indicamos a tag li, pois nela q tá os marcadores */
+    content: "+ "; /* no contéudo pode colocar qlqr coisa, até uma fonte estilizada etc */
+    color: #F2E86D;
+    font-size: 10px;
+
+}
+
+input {
+    height: 40px;
+    text-align: center;
+}
+
+.psdElementePlaceHolder::placeholder{
+    color: rgb(170, 58, 58);
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+}
+
+.destaque {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.psdElementBefore::before{
+    content: "$ ";
+    color: rgb(72, 161, 72);
+    font-weight: bold;
+}
+
+.psdElementAfter::after{
+    content: " [x]";
+    color: yellow;
+    font-weight: bold;
+}
+
+
+footer {
+    height: 100px;
+}
